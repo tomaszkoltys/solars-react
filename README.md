@@ -13,7 +13,7 @@ By utilizing react-slick, the web page gains the capability to display
 images and information in an easy sliding format. The whole project is 
 complemented by simple animations created using the framer-motion library.
 
-[Live demo](https://tomaszkoltys.github.io/solars-react/)
+[Live demo](https://solars-react.vercel.app/)
 
 
 
