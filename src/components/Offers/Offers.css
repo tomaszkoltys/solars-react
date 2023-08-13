@@ -1,0 +1,44 @@
+.offers__content{
+    flex-direction: column;
+    gap: 80px;
+}
+.offers__content--item{
+    flex-direction: column;
+    gap: 40px;
+    padding: 2rem;
+}
+.offers__content--left .image{
+    height: 200px;
+    width: auto;
+}
+.offers__content--right{
+    margin-top: 2rem;
+    
+}
+.offers__content--right .text{
+    padding: 1rem 0;
+    
+}
+.offers__content--right .btn{
+    min-height: 34px;
+    line-height: 44px;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+.offers__content--right .btn:hover{
+    background-color: var(--base-yellow-color);
+}
+@media screen and (min-width: 578px){
+    .offers__content--left .image{
+        height: 300px;
+        width: auto;
+    }
+}
+@media screen and (min-width: 768px){
+    .offers__content{
+        gap: 0;
+    }
+    .offers__content--item{
+        flex-direction: row;
+    }
+}

@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+#React Photovoltaics Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![solars-home](https://i.imgur.com/nnoDTs0.png)
 
-## Available Scripts
+This is responsive web page that provides information and features 
+related to photovoltaic installations and solar energy. The page
+consists of five sub-pages: Home, Offer, AboutUs, Contact, Reviews.
+Moreover application provides the possibility of contact by sending
+form using EmailJS library. The contact form is validated using yup
+and react-hook-form. In addition, react-toastify ensures that user 
+receives a confirmation that the data he completed has been sent.
+By utilizing react-slick, the web page gains the capability to display
+images and information in an easy sliding format. The whole project is 
+complemented by simple animations created using the framer-motion library.
 
-In the project directory, you can run:
 
-### `npm start`
+## Build with
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![React][React.js]][React-url] </br>
+[![Email.js][Email.js]][Email-url] </br>
+[![Framer-motion][Framer-motion.js]][Framer-motion-url]  </br>
+[![React-slick.js][React-slick.js]][React-slick-url]  </br>
+[![React-toastify][React-toastify.js]][React-toastify-url] </br>
+[![Yup][Yup.js]][Yup-url] </br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
+1. Clone the repo
+```sh
+    git clone 
+```
+2. Navigate to your project directory
+```sh
+    cd solars-react
+```
+3. Install dependencies
+```sh
+    npm install
+```
+4. Run the project locally
+```sh
+    npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## General appearance
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![solars-benefits](https://i.imgur.com/PQbYYAN.png)
+![solars-home](https://i.imgur.com/nnoDTs0.png)
+![solars-description](https://i.imgur.com/7kc6q5s.png)
+![solars-numbers](https://i.imgur.com/YDRMnxD.png)
+![solars-news](https://i.imgur.com/ojreen8.png)
+![solars-contact](https://i.imgur.com/6h1qEKb.png)
+![solars-footer](https://i.imgur.com/QXIiFBV.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Offer
 
-### `npm run eject`
+![solars-offer-banner](https://i.imgur.com/szHTTzt.png)
+![solars-offer-content](https://i.imgur.com/Jfg3USt.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### AboutUs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![solars-aboutus-banner](https://i.imgur.com/oLXMcOd.png)
+![solars-aboutus-content](https://i.imgur.com/tiTmmy1.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![solars-contact-banner](https://i.imgur.com/ISSJ17y.png)
+![solars-contact-content](https://i.imgur.com/K2jT0k8.png)
 
-## Learn More
+### Reviews
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![solars-reviews-banner](https://i.imgur.com/YMN3urD.png)
+![solars-reviews-content](https://i.imgur.com/zaZuzqv.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!--links-->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Email.js] : https://img.shields.io/badge/EmailJS-20232A?style=for-the-badge&logo=email.js&logoColor=white
+[Email-url]: https://www.emailjs.com/
+[Framer-motion.js]: https://img.shields.io/badge/Framer%20Motion-20232A?style=for-the-badge&logo=framer&logoColor=white
+[Framer-motion-url]: https://www.framer.com/motion/
+[React-slick.js]: https://img.shields.io/badge/React%20Slick-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-slick-url]: https://react-slick.neostack.com/
+[React-toastify.js]: https://img.shields.io/badge/React%20Toastify-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-toastify-url]:https://fkhadra.github.io/react-toastify/introduction/
+[Yup.js]: https://img.shields.io/badge/Yup-20232A?style=for-the-badge&logo=yup&logoColor=white
+[Yup-url]: https://github.com/jquense/yup

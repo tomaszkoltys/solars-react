@@ -1,0 +1,92 @@
+.contact__content{
+    margin-top: 3.6rem;
+    grid-template-columns: repeat(1, 1fr);
+
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.contact__content--left{
+   display: none;
+}
+.contact__content--left .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+}
+form{
+    padding: 5rem;
+}
+.form__elem{
+    position: relative;
+}
+.form__control{
+    font-size: 1.7rem;
+    font-family: inherit;
+    padding:1rem;
+    width: 100%;
+    margin: 1.6rem 0;
+    color: var(--base-yellow-color);
+    border: 1px solid var(--base-yellow-color);
+}
+.form__elem label{
+    position: absolute;
+    left: 2%;
+    padding: 0rem 1.5rem;
+    background-color: #fff;
+}
+.form__label{
+   color: var(--base-yellow-color);
+}
+.form__box label{
+    color: var(--base-yellow-color);
+}
+.form__box input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--base-yellow-color);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  .form__box input[type="checkbox"]:checked {
+    background-color: var(--base-yellow-color); 
+    border-color: var(--base-yellow-color);
+    opacity: 0.7;
+}
+.form__submit--btn{
+    display: block;
+    margin: 2rem auto;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5rem;
+}
+.form__submit--btn:hover
+{
+    background-color: var(--base-yellow-color);
+}
+.error__message{
+    color:red;
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 678px){
+    .form__elem--2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3.2rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .contact__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact__content--left{
+        display: inline;
+    }
+    .contact__content form{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}

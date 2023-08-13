@@ -1,0 +1,37 @@
+.benefits__content{
+    gap: 4rem;
+}
+.benefits__content--item{
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.benefits__content--item .icon{
+    width: 60px;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+.benefits__content--item .text{
+    margin: 2rem 0;
+    opacity: 0.8;
+}
+.benefits__content--item .text__description{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+    .benefits__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 992px){
+    .benefits__content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 1200px){
+    .benefits__content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

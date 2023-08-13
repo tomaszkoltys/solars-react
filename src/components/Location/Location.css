@@ -1,0 +1,50 @@
+.location__title{
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+}
+.location__content{
+    flex-direction: column;
+    gap: 40px;
+}
+.location__links li{
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+}
+.location__content--left{
+    width: 100%;
+    order: 2;
+}
+.location__content--right{
+    width: 100%;
+    order: 1;
+}
+.location__map{
+    width: 100%;
+}
+.location__content .btn{
+    margin-top: 2rem;
+}
+.location__content .btn:hover{
+    background-color: var(--base-yellow-color);
+}
+@media screen and (min-width: 578px){
+    .location__title{
+        font-size: 3.5rem;
+    }
+    .location__links li{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .location__content{
+        flex-direction: row;
+    }
+    .location__content--left{
+        width: 50%;
+        order: 1;
+    }
+    .location__content--right{
+        width: 50%;
+        order: 2;
+    }
+}

@@ -1,0 +1,38 @@
+.numbers__content {
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.numbers__content--item {
+    flex-direction: column;
+    max-width: 300px;
+   
+}
+.numbers__content--quantity .quantity{
+    font-size: 3.5rem;
+}
+.numbers__content--text{
+    border-left: 1px solid var(--yellow-color);
+    border-bottom: 1px solid var(--yellow-color);
+   
+}
+.numbers__content--text p{
+    margin: 1.7rem 3rem;
+}
+@media(min-width:578px){
+    .numbers__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 768px){
+    .numbers__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 992px){
+    .numbers__content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+

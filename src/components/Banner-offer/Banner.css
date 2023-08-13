@@ -1,0 +1,32 @@
+.banner{
+    padding: 300px 0;
+    height: 300px;
+}
+.banner__content{
+    text-align: center;
+    max-width: 500px;
+    flex-direction: column;
+}
+.banner__title{
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.banner__content .text{
+    font-size: 1.3rem;
+    padding: 3.6rem 0;
+    margin: 0 auto;
+}
+@media(min-width: 578px){
+    .banner__title{
+        font-size: 5rem;
+    }
+    .banner__content{
+        text-align: left;
+     }
+     .banner__content .text{
+        font-size: 1.5rem;
+    }
+}
+@media(min-width: 992px){
+    
+}

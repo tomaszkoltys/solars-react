@@ -1,0 +1,219 @@
+.navbar{
+    position: fixed;
+    padding: 1rem 0;
+    width: 100%;
+}
+.navbar__fixed{
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: -3px 0 14px 0 rgba(0, 0, 0, 0.4);
+    transition: var(--transition);
+}
+.navbar__brand img{
+    width: 100px;
+}
+.brand {
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+.navbar__links{
+    position: absolute;
+    top: 130px;
+    flex-direction: column;
+    background: var(--white-color);
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    transform: translateX(-101%);
+    transition: var(--transition);
+}
+.navbar__links .nav__item{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    white-space: nowrap;
+}
+.navbar__links .nav__link{
+    position: relative;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.nav__active{
+    color: #3c4858!important;
+}
+.navlink__fixed{
+    color: #3c4858!important;
+}
+.navbar--btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5.5rem;
+}
+.navbar--btn .btn:hover{
+    background-color: var(--base-yellow-color);
+}
+
+
+.navbar__links .nav__link:hover{
+    color:var(--yellow-color)!important;
+}
+.navbar__links .nav__link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: var(--yellow-color)!important;
+    transition: all 0.45s;
+}
+.navbar__links .nav__link:hover::before{
+    width: 100%;
+}
+
+.navbar__links .nav__link::before{
+    background: transparent;
+}
+.nav__link.switch{
+    color: #3c4858;
+}
+.navbar__links.switch{
+    padding: 2rem 0;
+    transform: translateX(0);
+    box-shadow: -3px 20px 14px 0 rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+.navbar__toggle--btn{
+    color: black;
+    display: flex;
+    position: relative;
+  width: 100px;
+  height: 100px;
+  top: 0.5rem;
+  left: 1rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.navbar__toggle--btn .hamburger{
+    position: relative;
+  width: 32px;
+  height: 2px;
+  background: var(--yellow-color);
+  transition: all 0.45s ease-in-out;
+}
+.navbar__toggle--btn .hamburger::before,
+.navbar__toggle--btn .hamburger::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: var(--yellow-color);
+  border-radius: 2px;
+  transition: all 0.45s ease-in-out;
+}
+
+.navbar__toggle--btn .hamburger::before {
+  width: 32px;
+  transform: translateY(-8px);
+  right: 0;
+}
+
+.navbar__toggle--btn .hamburger::after {
+  width: 32px;
+  transform: translateY(8px);
+}
+
+.navbar__toggle--btn.switch .hamburger {
+    transform: translateX(-40px);
+    background: transparent;
+}
+
+.navbar__toggle--btn.switch .hamburger::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+}
+
+.navbar__toggle--btn.switch .hamburger::after {
+  transform: rotate(-45deg) translate(26px, 26px);
+}
+
+
+
+.navbar__social{
+    position: relative;
+    margin-top: 5rem;
+}
+.social__link{
+    margin-left: 2.5rem;
+}
+.social__link .social__icon{
+    font-size: 3rem;
+    color: var(--yellow-color);
+}
+.social__link .social__icon:hover{
+    cursor: pointer;
+    color: var(--base-yellow-color);
+    transition: var(--transition);
+}
+
+
+
+  @media(max-width:578px){
+    .navbar--btn{
+        margin-left: 2rem;
+    }
+    .navbar--btn .btn{
+        padding: 0 1.5rem;
+        min-height: 44px;
+        line-height: 44px;
+        font-size: 1.5rem;
+    }
+    .brand {
+        width: 60%;
+    }
+    .navbar__toggle--btn{
+      top: 0;
+    }
+    .navbar__links{
+        top: 120px;
+    }
+    .navbar__links .nav__link{
+        font-size: 1.5rem;
+    }
+    .social__link .social__icon{
+        font-size: 2rem;
+    }
+}
+@media(min-width:578px){
+    .navbar__brand img{
+        width: 150px;
+    }
+}
+@media(min-width: 992px){
+    .navbar__links{
+        position: relative;
+        top: 0;
+        flex-direction: row;
+        background: transparent;
+        transform: translateX(0);
+        width: 100%;
+        height: 25px;
+    }
+    .navbar__links.switch{
+        padding: 2rem 0;
+        transform: translateX(0);
+        box-shadow:none;
+    }
+    .navbar__links .nav__item{
+        margin-left: 3.8rem;
+    }
+    .navbar__toggle--btn{
+        display: none;
+    }
+    .navbar__social{
+        display: none;
+    }
+    }

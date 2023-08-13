@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+.container{
+  max-width: 1177px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section__title{
+  color:var(--black-color);
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section__padding{
+  padding: 10rem 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
-  flex-direction: column;
+}
+.flex__center{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.grid{
+  display: grid;
 }
 
-.App-link {
-  color: #61dafb;
+.description__text{
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+  letter-spacing: 1px;
+}
+.text__center{
+  text-align: center;
+}
+.text__upper{
+  text-transform: uppercase;
+}
+.text__cap{
+  text-transform: capitalize;
+}
+.text__yellow{
+  color: var(--yellow-color)!important;
+}
+.text__dark{
+  color: var(--black-color)!important;
+}
+.text__light{
+  color: var(--white-color)!important;
+}
+.text__grey{
+  color: var(--grey-color)!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.bg__yellow{
+  background-color: var(--base-yellow-color);
+}
+.bg__dark{
+  background-color: var(--black-color);
+}
+.bg__light{
+  background-color: var(--white-color);
+}
+.bg__whitesmoke{
+  background-color: var(--whitesmoke-color);
+}
+.bg__whitesmokelight{
+  background-color: var(--whitesmokelight-color);
+}
+.bg__grey{
+  background-color: var(--grey-color);
+}
+
+.fw__2{
+  font-weight: 200!important;
+}
+.fw__3{
+  font-weight: 300!important;
+}
+.fw__4{
+  font-weight: 400!important;
+}
+.fw__5{
+  font-weight: 500!important;
+}
+.fw__6{
+  font-weight: 600!important;
+}
+.fw__7{
+  font-weight: 700!important;
+}
+.fw__8{
+  font-weight: 800!important;
+}
+
+.btn{
+  display: inline-block;
+  padding: 0 3rem;
+  min-height: 54px;
+  line-height: 54px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color:var(--white-color);
+  font-weight: 500;
+  transition: var(--transition);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn__byellow{
+  background-color: var(--base-yellow-color);
+}
+.btn__yellow{
+  background-color: var(--yellow-color);
+}
+
+.ls__1{
+  letter-spacing: 1px;
+}
+.ls__2{
+  letter-spacing: 2px;
+}
+@media(max-width:578px){
+  .section__title{
+    font-size: 3rem;
   }
 }
