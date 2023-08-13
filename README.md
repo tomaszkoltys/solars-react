@@ -17,10 +17,9 @@ complemented by simple animations created using the framer-motion library.
 
 
 
-## Build with
+## Built with
 
 [![React][React.js]][React-url] </br>
-[![EmailJS][Email.js]][Email-url] </br>
 [![Framer-motion][Framer-motion.js]][Framer-motion-url]  </br>
 [![React-slick][React-slick.js]][React-slick-url]  </br>
 [![React-toastify][React-toastify.js]][React-toastify-url] </br>
@@ -31,7 +30,7 @@ complemented by simple animations created using the framer-motion library.
 ## Installation
 1. Clone the repo
 ```sh
-    git clone 
+    git clone https://github.com/tomaszkoltys/solars-react.git
 ```
 2. Navigate to your project directory
 ```sh
@@ -94,13 +93,11 @@ complemented by simple animations created using the framer-motion library.
 <!--links-->
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Email.js] : https://img.shields.io/badge/EmailJS-20232A?style=for-the-badge&logo=email.js&logoColor=white
-[Email-url]: https://www.emailjs.com/
 [Framer-motion.js]: https://img.shields.io/badge/Framer%20Motion-20232A?style=for-the-badge&logo=framer&logoColor=white
 [Framer-motion-url]: https://www.framer.com/motion/
 [React-slick.js]: https://img.shields.io/badge/React%20Slick-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-slick-url]: https://react-slick.neostack.com/
 [React-toastify.js]: https://img.shields.io/badge/React%20Toastify-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-toastify-url]:https://fkhadra.github.io/react-toastify/introduction/
-[Yup.js]: https://img.shields.io/badge/Yup-20232A?style=for-the-badge&logo=yup&logoColor=white
+[Yup.js]: https://img.shields.io/badge/Yup-663399?style=for-the-badge
 [Yup-url]: https://github.com/jquense/yup
