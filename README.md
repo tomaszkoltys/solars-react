@@ -20,10 +20,11 @@ complemented by simple animations created using the framer-motion library.
 ## Built with
 
 [![React][React.js]][React-url] </br>
-[![Framer-motion][Framer-motion.js]][Framer-motion-url]  </br>
 [![React-slick][React-slick.js]][React-slick-url]  </br>
 [![React-toastify][React-toastify.js]][React-toastify-url] </br>
 [![Yup][Yup.js]][Yup-url] </br>
+[![Framer-motion][Framer-motion.js]][Framer-motion-url]  </br>
+[![EmailJS][EmailJS.js]][EmailJS-url] </br>
 
 
 
@@ -56,35 +57,35 @@ complemented by simple animations created using the framer-motion library.
 ![solars-news](https://i.imgur.com/ojreen8.png)
 ![solars-contact](https://i.imgur.com/6h1qEKb.png)
 ![solars-footer](https://i.imgur.com/QXIiFBV.png)
-
+<br><br>
 
 
 ### Offer
 
 ![solars-offer-banner](https://i.imgur.com/szHTTzt.png)
 ![solars-offer-content](https://i.imgur.com/Jfg3USt.png)
-
+<br><br>
 
 
 ### AboutUs
 
 ![solars-aboutus-banner](https://i.imgur.com/oLXMcOd.png)
 ![solars-aboutus-content](https://i.imgur.com/tiTmmy1.png)
-
+<br><br>
 
 
 ### Contact
 
 ![solars-contact-banner](https://i.imgur.com/ISSJ17y.png)
 ![solars-contact-content](https://i.imgur.com/K2jT0k8.png)
-
+<br><br>
 
 
 ### Reviews
 
 ![solars-reviews-banner](https://i.imgur.com/YMN3urD.png)
 ![solars-reviews-content](https://i.imgur.com/zaZuzqv.png)
-
+<br><br>
 
 
 
@@ -99,5 +100,7 @@ complemented by simple animations created using the framer-motion library.
 [React-slick-url]: https://react-slick.neostack.com/
 [React-toastify.js]: https://img.shields.io/badge/React%20Toastify-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-toastify-url]:https://fkhadra.github.io/react-toastify/introduction/
-[Yup.js]: https://img.shields.io/badge/Yup-663399?style=for-the-badge
+[Yup.js]: https://img.shields.io/badge/Yup-20232A?style=for-the-badge&logo=yup&logoColor=white
 [Yup-url]: https://github.com/jquense/yup
+[EmailJS.js]: https://img.shields.io/badge/EmailJS-20232A?style=for-the-badge&logo=email.js&logoColor=white
+[EmailJS-url]: https://www.emailjs.com/
